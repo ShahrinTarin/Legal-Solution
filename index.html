@@ -25,7 +25,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
-             
+
           },
           fontFamily: {
             "EB-Garamond": ["EB Garamond", 'serif'],
@@ -72,70 +72,74 @@
 
         <div class="navbar-end">
 
-          <div class="mr-2"><div class="dropdown">
-            <div tabindex="0" role="button" class="btn m-1">
-              Theme
-              <svg
-                width="12px"
-                height="12px"
-                class="inline-block h-2 w-2 fill-current opacity-60"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 2048 2048">
-                <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
-              </svg>
+          <div class="mr-2">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn m-1">
+                Theme
+                <svg width="12px" height="12px" class="inline-block h-2 w-2 fill-current opacity-60"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+                  <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
+                </svg>
+              </div>
+              <ul tabindex="0" class="dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl">
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Default"
+                    value="default" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Dark"
+                    value="dark" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Cupcake"
+                    value="cupcake" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Synthwave"
+                    value="synthwave" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Bumblebee"
+                    value="bumblebee" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Emerald"
+                    value="emerald" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Corporate"
+                    value="corporate" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Retro"
+                    value="retro" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Cyberpunk"
+                    value="cyberpunk" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Valentine"
+                    value="valentine" />
+                </li>
+                <li>
+                  <input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Aqua"
+                    value="aqua" />
+                </li>
+              </ul>
             </div>
-            <ul tabindex="0" class="dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl">
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Default"
-                  value="default" />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Dark"
-                  value="dark" />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Retro"
-                  value="retro" />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Cyberpunk"
-                  value="cyberpunk" />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Valentine"
-                  value="valentine" />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Aqua"
-                  value="aqua" />
-              </li>
-            </ul>
           </div>
-        </div>
 
           <a class="btn bg-[#B68C5A] text-white font-xs">Free Consultation</a>
         </div>
@@ -177,7 +181,8 @@
       <!-- card container  -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 md:px-0">
         <!-- card1   -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-l-0  hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
+        <div
+          class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-l-0  hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/business.png" alt="Business Law" class="w-16" />
           </figure>
@@ -212,7 +217,8 @@
         <!-- card2 end  -->
 
         <!-- card3 -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-r-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
+        <div
+          class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-r-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/child.png" alt="Child Support" class="rounded-xl w-16" />
           </figure>
@@ -229,7 +235,8 @@
         <!-- card3 end  -->
 
         <!-- card4   -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-l-0 lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
+        <div
+          class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-l-0 lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/education.png" alt="Education Law" class="rounded-xl w-16" />
           </figure>
@@ -246,7 +253,8 @@
         <!-- card4 end  -->
 
         <!-- card5  -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
+        <div
+          class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/divorce.png" alt="Divorce Law" class="rounded-xl w-16" />
           </figure>
@@ -263,7 +271,8 @@
         <!-- card5 end  -->
 
         <!-- card6 -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-r-0 lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
+        <div
+          class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-r-0 lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/tax.png" alt="Tax Law" class="rounded-xl w-16" />
           </figure>
@@ -289,18 +298,20 @@
 
   <main class="md:container mx-auto">
 
-    <!-- client section  -->
+    <!-- client section starts -->
     <section class="mb-36">
       <h1 class="text-center text-2xl md:text-4xl font-extrabold text-gray-700 mb-5">What Our Client Say</h1>
       <p class="text-center text-xs md:text-sm text-gray-500 font-poppins mb-16">There are many variations of passages
         of
         Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
-      
+
 
       <div class="carousel w-full">
         <!-- 1st slide -->
         <div id="slide1" class="carousel-item relative w-full">
-          <div style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/banner.png); background-repeat: no-repeat; background-size:cover; background-position: center;" class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto p-5 md:p-16 lg:p-0">
+          <div
+            style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/banner.png); background-repeat: no-repeat; background-size:cover; background-position: center;"
+            class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto p-5 md:p-16 lg:p-0 rounded-md">
             <div>
               <div class="avatar">
                 <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
@@ -309,12 +320,15 @@
               </div>
             </div>
             <div class="flex flex-col items-center justify-center text-center text-slate-200 space-y-3">
-             <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
-             <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
-             <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin  professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-             <img class="pt-5" src="./images/slide.png" alt="">
+              <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
+              <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
+              <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000
+                years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up
+                one of the more obscure Latin words, consectetur.</p>
+              <img class="pt-5" src="./images/slide.png" alt="">
             </div>
-            
+
           </div>
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" class="btn btn-circle bg-slate-400">❮</a>
@@ -325,7 +339,9 @@
 
         <!-- 2nd slide -->
         <div id="slide2" class="carousel-item relative w-full">
-          <div style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/slider-1.jpg); background-repeat: no-repeat; background-size:cover; background-position: center;" class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto">
+          <div
+            style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/slider-1.jpg); background-repeat: no-repeat; background-size:cover; background-position: center;"
+            class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto rounded-md">
             <div>
               <div class="avatar">
                 <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
@@ -334,12 +350,15 @@
               </div>
             </div>
             <div class="flex flex-col items-center justify-center text-center text-slate-200 space-y-3">
-             <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
-             <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
-             <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin  professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-             <img class="pt-5" src="./images/slide.png" alt="">
+              <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
+              <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
+              <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000
+                years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up
+                one of the more obscure Latin words, consectetur.</p>
+              <img class="pt-5" src="./images/slide.png" alt="">
             </div>
-            
+
           </div>
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide1" class="btn btn-circle bg-slate-400">❮</a>
@@ -350,7 +369,9 @@
 
         <!-- 3rd slide -->
         <div id="slide3" class="carousel-item relative w-full">
-          <div style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/slider-2.jpg); background-repeat: no-repeat; background-size:cover; background-position: center;" class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto">
+          <div
+            style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/slider-2.jpg); background-repeat: no-repeat; background-size:cover; background-position: center;"
+            class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto rounded-md">
             <div>
               <div class="avatar">
                 <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
@@ -359,12 +380,15 @@
               </div>
             </div>
             <div class="flex flex-col items-center justify-center text-center text-slate-200 space-y-3">
-             <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
-             <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
-             <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin  professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-             <img class="pt-5" src="./images/slide.png" alt="">
+              <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
+              <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
+              <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000
+                years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up
+                one of the more obscure Latin words, consectetur.</p>
+              <img class="pt-5" src="./images/slide.png" alt="">
             </div>
-            
+
           </div>
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide2" class="btn btn-circle bg-slate-400">❮</a>
@@ -372,10 +396,12 @@
           </div>
         </div>
         <!-- 3rd slide end-->
-        
+
         <!-- 4th slide -->
         <div id="slide4" class="carousel-item relative w-full">
-          <div style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/slider-3.jpg); background-repeat: no-repeat; background-size:cover; background-position: center;" class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto">
+          <div
+            style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/slider-3.jpg); background-repeat: no-repeat; background-size:cover; background-position: center;"
+            class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto rounded-md">
             <div>
               <div class="avatar">
                 <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
@@ -384,12 +410,15 @@
               </div>
             </div>
             <div class="flex flex-col items-center justify-center text-center text-slate-200 space-y-3">
-             <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
-             <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
-             <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin  professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-             <img class="pt-5" src="./images/slide.png" alt="">
+              <h1 class="text-white text-2xl font-extrabold">Awlad Hossain</h1>
+              <p class="font-poppins text-sm text-gray-200">UI/UX Designer</p>
+              <p class="font-poppins text-sm text-[#F3F3F3]">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000
+                years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up
+                one of the more obscure Latin words, consectetur.</p>
+              <img class="pt-5" src="./images/slide.png" alt="">
             </div>
-            
+
           </div>
           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide3" class="btn btn-circle bg-slate-400">❮</a>
@@ -397,13 +426,208 @@
           </div>
         </div>
         <!-- 4th slide end-->
-        
-      </div>
-      
-    </section>
-    <!-- client section  -->
 
+      </div>
+
+    </section>
+    <!-- client section end -->
+
+    <!-- faq section  -->
+    <section class="mb-36 md:container mx-auto">
+      <div class="mb-16">
+        <h1 class="text-center text-2xl md:text-4xl font-extrabold text-gray-700 mb-5">Frequently Asked Any Questions
+        </h1>
+        <p class="text-center text-xs md:text-sm text-gray-500 font-poppins">There are many variations of passages of
+          Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+      </div>
+
+      <div>
+        <div class="hero ">
+          <div class="hero-content md:container mx-auto flex-col lg:flex-row-reverse gap-10">
+            <img src="./images/faq.png" class="max-w-full rounded-lg" />
+            <div class="space-y-3 flex-1 font-EB-Garamond">
+              <div class="collapse collapse-plus bg-base-200 rounded-md p-7">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-extrabold">1. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p class="text-xs md:text-sm text-gray-500 font-poppins">There are many variations of
+                    passages of
+                    Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected
+                    humour.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 rounded-md p-7">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-extrabold">2. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p class="text-xs md:text-sm text-gray-500 font-poppins">There are many variations of
+                    passages of
+                    Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected
+                    humour.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 rounded-md p-7">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-extrabold">3. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p class="text-xs md:text-sm text-gray-500 font-poppins">There are many variations of
+                    passages of
+                    Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected
+                    humour.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 rounded-md p-7">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-extrabold">4. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p class="text-xs md:text-sm text-gray-500 font-poppins">There are many variations of
+                    passages of
+                    Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected
+                    humour.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- faq section end  -->
+
+    <!-- section information-->
+    <section class="mb-36">
+      <div class="mb-16">
+        <h1 class="text-center text-2xl md:text-4xl font-extrabold text-gray-700 mb-5">Contact With Us
+        </h1>
+        <p class="text-center text-xs md:text-sm text-gray-500 font-poppins">There are many variations of passages of
+          Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+      </div>
+
+      <div>
+        <div class="hero">
+          <div class="hero-content items-stretch-stretch flex-col lg:flex-row md:container gap-10 mx-auto">
+            <!-- card container  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 w-full lg:w-[45%]">
+              <!-- card1  -->
+              <div class="card bg-[#F3F3F3] rounded-none border-2 border-[#E7E7E7] md:border-t-0 md:border-l-0">
+                <figure class="px-10 pt-10">
+                  <img src="./images/location.png" alt="Address" class="pb-0" />
+                </figure>
+                <div class="card-body items-center text-center space-y-2">
+                  <h2 class="card-title text-xl md:text-2xl font-extrabold text-gray-700">Address</h2>
+                  <p class="text-center text-xs md:text-sm text-gray-500 font-poppins">A108 Adam Street,<br> New York,
+                    NY 535022</p>
+                </div>
+              </div>
+              <!-- card1 end  -->
+
+              <!-- card2  -->
+              <div class="card bg-[#F3F3F3] rounded-none border-2 border-[#E7E7E7] md:border-t-0 md:border-r-0">
+                <figure class="px-10 pt-10">
+                  <img src="./images/call.png" alt="Call Us" class="pb-0" />
+                </figure>
+                <div class="card-body items-center text-center space-y-2">
+                  <h2 class="card-title text-center text-xl md:text-2xl font-extrabold text-gray-700">Call Us</h2>
+                  <p class="text-center text-xs md:text-sm text-gray-500 font-poppins">+88 01750 00 00 00
+                    <br> +88 01750 00 00 00
+                  </p>
+                </div>
+              </div>
+              <!-- card2 end  -->
+
+              <!-- card3  -->
+              <div class="card bg-[#F3F3F3] rounded-none border-2 border-[#E7E7E7] md:border-b-0 md:border-l-0">
+                <figure class="px-10 pt-10">
+                  <img src="./images/email.png" alt="Email Us" class="pb-0" />
+                </figure>
+                <div class="card-body items-center text-center space-y-2">
+                  <h2 class="card-title text-center text-xl md:text-2xl font-extrabold text-gray-700">Email Us</h2>
+                  <p class="text-center text-xs md:text-sm text-gray-500 font-poppins">info@gmail.com
+                    <br> info@gmail.com
+                  </p>
+                </div>
+              </div>
+              <!-- card3 end  -->
+
+              <!-- card4  -->
+              <div class="card bg-[#F3F3F3] rounded-none border-2 border-[#E7E7E7] md:border-b-0 md:border-r-0">
+                <figure class="px-10 pt-10">
+                  <img src="./images/time.png" alt="Working Hours" class="pb-0" />
+                </figure>
+                <div class="card-body items-center text-center space-y-2">
+                  <h2 class="card-title text-center text-xl md:text-2xl font-extrabold text-gray-700">Working Hours</h2>
+                  <p class="text-center text-xs md:text-sm text-gray-500 font-poppins">Mon-Fri: 9AM to 5PM
+                    <br> Sunday: 9AM to 1 PM
+                  </p>
+                </div>
+              </div>
+              <!-- card4 end  -->
+
+            </div>
+            <!-- card container end -->
+            <div class="flex-1 flex flex-col gap-5">
+              <label class="input flex items-center gap-2 bg-[#F3F3F3] p-8">
+                <input type="text" class="grow font-poppins text-sm" placeholder="Your Name" />
+              </label>
+              <label class="input flex items-center gap-2 bg-[#F3F3F3] p-8">
+                <input type="text" class="grow font-poppins text-sm" placeholder="Your Email" />
+              </label>
+              <label class="input flex items-center gap-2 bg-[#F3F3F3] p-8">
+                <input type="text" class="grow font-poppins text-sm" placeholder="Subject" />
+              </label>
+              <label class="input flex items-center gap-2 bg-[#F3F3F3] p-8 pb-20">
+                <input type="text" class="grow font-poppins text-sm" placeholder="Your Message" />
+              </label>
+              <button class="btn btn-wide w-full pt-8 pb-9 items-center font-poppins text-white bg-[#b68d5a]">Send Message</button>
+            </div>
+          </div>
+        </div>
+
+    </section>
+<!-- section information end-->
   </main>
+
+
+  <footer class="bg-[#111111]">
+  <div class="footer text-white p-8 md:container mx-auto">
+    
+    <aside>
+      <img src="./images/logo.png" alt="">
+      <p class="text-xs md:text-sm text-gray-500 font-poppins mt-8">There are many variations of <br> passages of
+        Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+    </aside>
+  
+    <nav>
+      <h6 class="text-xl font-extrabold mb-10 text-white">Useful Link</h6>
+      <a class="link link-hover mb-3 font-poppins text-gray-500">Branding</a>
+      <a class="link link-hover mb-3 font-poppins text-gray-500">Design</a>
+      <a class="link link-hover mb-3 font-poppins text-gray-500">Marketing</a>
+      <a class="link link-hover mb-3 font-poppins text-gray-500">Advertisement</a>
+    </nav>
+
+    <nav>
+      <h6 class="text-xl font-extrabold mb-9 text-white">Contact Now</h6>
+      <a class="link link-hover mb-2 font-poppins text-gray-500">555 4th 5t NW, Washington
+       <br> DC 20530, United States</a>
+      <a class="link link-hover mb-2 font-poppins text-gray-500">+88 01750 000 000
+      <br>  +88 01750 000 000</a>
+      <a class="link link-hover mb-2 font-poppins text-gray-500">info@gmail.com
+    <br>  info@gmail.com</a>
+    </nav>
+  
+    <nav>
+      <h6 class="text-xl font-extrabold mb-6 text-white">Subscribe</h6>
+      <p class=" mb-2 font-poppins text-gray-500">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails. </p>
+       
+      <div class="md:flex gap-0 relative">
+        <input type="text" placeholder="Email Address"
+          class="input border-md" />
+        <button class="btn border-hidden h-18 w-18 text-center absolute -right-6 bg-[#B68C5A] text-white font-xs"><img src="./images/fly.png" alt=""></button>
+      </div>
+    </nav>
+  </div>
+  </footer>
 
 </body>
 
