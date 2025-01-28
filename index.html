@@ -39,6 +39,7 @@
 
 <body class="font-EB-Garamond">
   <header class="md:container mx-auto">
+
     <nav>
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -67,17 +68,84 @@
             <li><a>Blog<i class="fa-solid fa-greater-than font-extralight text-xs"></i></a></li>
             <li><a>Contact Us<i class="fa-solid fa-greater-than font-extralight text-xs"></i></a></li>
           </ul>
-
         </div>
+
         <div class="navbar-end">
+
+          <div class="mr-2"><div class="dropdown">
+            <div tabindex="0" role="button" class="btn m-1">
+              Theme
+              <svg
+                width="12px"
+                height="12px"
+                class="inline-block h-2 w-2 fill-current opacity-60"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 2048 2048">
+                <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
+              </svg>
+            </div>
+            <ul tabindex="0" class="dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl">
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Default"
+                  value="default" />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Dark"
+                  value="dark" />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Retro"
+                  value="retro" />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Cyberpunk"
+                  value="cyberpunk" />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Valentine"
+                  value="valentine" />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Aqua"
+                  value="aqua" />
+              </li>
+            </ul>
+          </div>
+        </div>
+
           <a class="btn bg-[#B68C5A] text-white font-xs">Free Consultation</a>
         </div>
       </div>
     </nav>
+
     <!-- hero section  -->
     <section class="mb-36">
       <div class="hero bg-cover bg-center backdrop:contrast-125 lg:h-[714px] rounded-md"
-        style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/banner.png),url(./images/Rectangle-5.png); background-repeat: no-repeat; background-size: cover; ">
+        style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/banner.png),url(./images/Rectangle-5.png); background-repeat: no-repeat; background-size: cover;">
         <div class="hero-content text-neutral-content text-center">
           <div class="max-w-2xl">
             <h1 class="mb-5 text-5xl font-bold">We Provide Effective <br> Legal Solutions</h1>
@@ -109,7 +177,7 @@
       <!-- card container  -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 md:px-0">
         <!-- card1   -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-l-0">
+        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-l-0  hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/business.png" alt="Business Law" class="w-16" />
           </figure>
@@ -127,7 +195,7 @@
 
         <!-- card2 -->
         <div
-          class="card rounded-none bg-base-100 bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300] border border-[#E7E7E7] ">
+          class="card rounded-none bg-base-100 bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300] border border-[#E7E7E7] hover:bg-none transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/criminal.png" alt="Criminal Law" class="rounded-xl w-16" />
           </figure>
@@ -144,7 +212,7 @@
         <!-- card2 end  -->
 
         <!-- card3 -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-r-0">
+        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-t-0 lg:border-r-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/child.png" alt="Child Support" class="rounded-xl w-16" />
           </figure>
@@ -161,7 +229,7 @@
         <!-- card3 end  -->
 
         <!-- card4   -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-l-0 lg:border-b-0">
+        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-l-0 lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/education.png" alt="Education Law" class="rounded-xl w-16" />
           </figure>
@@ -178,7 +246,7 @@
         <!-- card4 end  -->
 
         <!-- card5  -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-b-0">
+        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/divorce.png" alt="Divorce Law" class="rounded-xl w-16" />
           </figure>
@@ -195,7 +263,7 @@
         <!-- card5 end  -->
 
         <!-- card6 -->
-        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-r-0 lg:border-b-0">
+        <div class="card rounded-none bg-base-100 border border-[#E7E7E7] lg:border-r-0 lg:border-b-0 hover:bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300]  transition-all duration-1000 ">
           <figure class="px-10 pt-10">
             <img src="./images/tax.png" alt="Tax Law" class="rounded-xl w-16" />
           </figure>
@@ -232,7 +300,7 @@
       <div class="carousel w-full">
         <!-- 1st slide -->
         <div id="slide1" class="carousel-item relative w-full">
-          <div style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/banner.png); background-repeat: no-repeat; background-size:cover; background-position: center;" class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto">
+          <div style=" background: linear-gradient(0.00deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url(./images/Rectangle-7.png),url(./images/banner.png); background-repeat: no-repeat; background-size:cover; background-position: center;" class="flex flex-col justify-center items-center lg:h-[600px] md:container mx-auto p-5 md:p-16 lg:p-0">
             <div>
               <div class="avatar">
                 <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
